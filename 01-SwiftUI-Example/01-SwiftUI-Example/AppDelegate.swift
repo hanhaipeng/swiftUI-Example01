@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         print("hhhhhh")
+        
+        var sum = 0
+        for i in 0...10 {
+            sum += i
+        }
+        print(sum)
         return true
     }
 
